@@ -1,7 +1,16 @@
 aid: biostate-ai
 name: Biostate AI
-description: 'Biostate AI is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Biostate AI is a Houston-based precision-health biotechnology company
+  combining proprietary wet-lab chemistry with generative AI to make RNA and DNA
+  sequencing dramatically cheaper and more accessible. Its BIRT (Barcode-Integrated
+  Reverse Transcription) plus PERD (Probes for Excess RNA Depletion) platform delivers
+  Total RNA sequencing from around $60 per sample, and its N-Act and RNAstate AI
+  models turn omics data into clinical insights for autoimmune, cardiovascular, and
+  cancer diagnostics. The company operates a cloud data lake for AI-ready omics data
+  and runs research partnerships across the U.S., India, and China. As of this profile
+  Biostate publishes a marketing and publications site plus open research model
+  repositories on GitHub, but exposes no public developer API, OpenAPI, SDK client
+  library, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/biostate-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +18,31 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.biostate.ai/images/logo.png
 tags:
 - Company
 - Ai
+- RNA Sequencing
+- Genomics
+- Bioinformatics
+- Precision Health
+- Diagnostics
+- Biotechnology
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://biostate.ai/
+- type: GitHubOrganization
+  url: https://github.com/BiostateAI
+- type: Blog
+  url: https://www.biostate.ai/news
+- type: Pricing
+  url: https://www.biostate.ai/rna-sequencing
+- type: TermsOfService
+  url: https://www.biostate.ai/sales-tc
+- type: PrivacyPolicy
+  url: https://www.biostate.ai/privacy
+- type: Publications
+  url: https://www.biostate.ai/publications
+- type: DomainSecurity
+  url: security/biostate-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
