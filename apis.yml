@@ -53,7 +53,7 @@ tags:
 - Precision Health
 - Diagnostics
 - Biotechnology
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Ai
@@ -64,6 +64,7 @@ tags_raw:
 - Diagnostics
 - Biotechnology
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
