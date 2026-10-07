@@ -1,0 +1,38 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.biostate.ai/rna-sequencing
+sources:
+- https://www.biostate.ai/rna-sequencing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Standard Samples
+published: true
+note: Page advertises Total RNA-Seq service starting at $60/sample with two per-sample price points; quotes
+  otherwise via 'Get My Quote'.
+plan_count: 2
+currency: USD
+plans:
+- name: Standard Samples
+  price_text: $60 /sample
+  price: 60
+  currency: USD
+  period: per-use
+  unit: sample
+  included_quota: 10M reads included; Single-end 300–450bp default; cultured animal cells (>30k cells),
+    extracted RNA (mammalian) conc. ≥ 16 ng/μL (min 10 μL)
+- name: Specialized Samples
+  price_text: $110 /sample
+  price: 110
+  currency: USD
+  period: per-use
+  unit: sample
+  included_quota: Specialty and low-concentration RNA, biospecimens/clinical samples, unusual organisms
